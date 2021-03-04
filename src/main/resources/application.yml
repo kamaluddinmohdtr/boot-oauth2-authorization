@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    properties.hibernate.show_sql: true
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:9092/uaa
+    username: uaa_user
+    password: uaa_user
+    driver-class-name: org.postgresql.Driver
+  javamelody:
+    advisor-auto-proxy-creator-enabled: false
